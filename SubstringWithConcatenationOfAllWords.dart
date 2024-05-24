@@ -36,9 +36,3 @@ class Solution
         return startOfSubString;
   }
 }
-
-main()
-{
-    var sol = Solution();
-    sol.findSubstring("ababaab", ["ab","ba","ba"]).forEach((n) => print(n));   
-}

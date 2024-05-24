@@ -50,12 +50,3 @@ class Solution
 		nums.sort();
 	}
 }
-
-main()
-{
-	Solution sol = Solution();
-	var nums = [3, 2, 1];
-	sol.nextPermutation(nums);
-	print(nums);
-}
-

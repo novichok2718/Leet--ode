@@ -28,9 +28,3 @@ class Solution
         return allPermutations;
     }
 }
-
-main()
-{
-    Solution sol = Solution();
-    sol.permute([1, 2, 3]);
-}
