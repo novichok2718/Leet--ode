@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func combine(n int, k int) [][]int {
 	res := [][]int{}
 
@@ -25,6 +23,3 @@ func combine(n int, k int) [][]int {
 	return res
 }
 
-func main() {
-	fmt.Print(combine(10, 3))
-}
