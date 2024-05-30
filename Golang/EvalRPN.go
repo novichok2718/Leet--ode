@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -88,8 +87,4 @@ func evalRPN(tokens []string) int {
 		return ans
 	}
 	return 1
-}
-
-func main() {
-	fmt.Print(evalRPN([]string{"10","6","9","3","+","-11","*","/","*","17","+","5","+"}))
 }
