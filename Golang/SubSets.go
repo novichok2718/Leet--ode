@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func subsets(nums []int) [][]int {
 	_nums := make([][]int, 2)
 	for i := 0; i < 2; i++ {
@@ -30,8 +28,4 @@ func subsets(nums []int) [][]int {
 	}
 	AllSubsets(_nums, 0)
 	return allSubsets
-}
-
-func main() {
-	fmt.Print(subsets([]int{1, 2, 3}))
 }
