@@ -1,10 +1,5 @@
 package main
 
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
-
 func lenghtOfList(head *ListNode) int {
 	iter := head
 	size := 0
