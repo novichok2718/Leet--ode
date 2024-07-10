@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func findPeakElement(nums []int) int {
 	if len(nums) == 1 {	return 0 }
 	if len(nums) == 2 {
@@ -28,8 +26,4 @@ func findPeakElement(nums []int) int {
 		}
 	}
 	return middle
-}
-
-func main() {
-	fmt.Println(findPeakElement([]int{1, 2, 3, 4, 3}))
 }
